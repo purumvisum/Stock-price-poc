@@ -1,4 +1,4 @@
-const apiKey = 'ZQAZ1XZQYQ1EYEWV';
+const apiKey = 'KEY';
 const stocks = [
     { symbol: 'INGA.AS', name: 'ING (AEX)' }, 
     { symbol: 'ING', name: 'ING (NYSE)' }
