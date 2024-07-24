@@ -11,7 +11,7 @@
 
 ## Cost Comparison for Popular APIs
 
-### IEX Cloud
+### IEX Cloud ([https://rapidapi.com/eec19846/api/investors-exchange-iex-trading])
 - **Backend**:
   - **Plan**: Launch (Free) plan allows 500,000 messages/month.
   - **Total Requests**: 96 requests/day * 30 days = 2,880 requests/month.
@@ -21,7 +21,7 @@
   - **Total Requests**: 124,800 requests/day * 30 days = 3,744,000 requests/month.
   - **Cost**: $100/month (within Grow plan).
 
-### Alpha Vantage
+### Alpha Vantage ([https://www.alphavantage.co/documentation/] OR [https://rapidapi.com/alphavantage/api/alpha-vantage/playground/apiendpoint_6d514147-c965-4ab7-bad1-929b8bf302c0](https://rapidapi.com/alphavantage/api/alpha-vantage))
 - **Backend**:
   - **Plan**: Free plan allows 500 requests/day.
   - **Total Requests**: 96 requests/day.
@@ -31,7 +31,7 @@
   - **Total Requests**: 124,800 requests/day.
   - **Cost**: $149.99/month.
 
-### EOD Historical Data
+### EOD Historical Data ([https://rapidapi.com/eod-historical-data-eod-historical-data-default/api/eod-historical-data])
 - **Backend**:
   - **Plan**: Basic plan starts at $19.99/month for 100,000 API requests/day.
   - **Total Requests**: 96 requests/day * 30 days = 2,880 requests/month.
