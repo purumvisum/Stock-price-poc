@@ -53,3 +53,35 @@
 
 ## Conclusion
 Updating stock prices on the backend is significantly cheaper and more manageable in terms of API usage. For instance, using IEX Cloud's free plan or Alpha Vantage's free plan covers the backend updates. On the other hand, frontend updates could cost between $100 and $150 per month, depending on the chosen API.
+
+
+
+“### Frontend API Calls:
+
+1.  **Advantages:**
+    
+    *   **Simpler Implementation**: Directly fetch and display data without needing server-side logic.
+    *   **Reduced Server Load**: Less strain on your backend server since requests are made directly from the client.
+    *   **Real-time Updates**: Easier to implement real-time updates and dynamic data fetching.
+2.  **Disadvantages:**
+    
+    *   **Security Risks**: API keys and sensitive data can be exposed, making it easier for unauthorized access and abuse.
+    *   **Rate Limiting**: More challenging to manage rate limits since each client makes its own API calls, potentially leading to higher costs if the limits are exceeded.
+
+### Backend API Calls:
+
+1.  **Advantages:**
+    
+    *   **Enhanced Security**: API keys and sensitive data are stored server-side, reducing the risk of exposure.
+    *   **Rate Limit Management**: Centralized API calls allow for better control over usage limits, which can help avoid exceeding limits and incurring additional costs.
+    *   **Data Aggregation and Processing**: The backend can aggregate and process data before sending it to the frontend, reducing the amount of data transferred and improving performance.
+2.  **Disadvantages:**
+    
+    *   **Increased Server Load**: More requests to your backend server, which can increase hosting costs and require more server resources.
+    *   **More Complex Implementation**: Requires setting up server-side logic and handling data fetching, processing, and caching.
+
+### Cost Considerations:
+
+*   **API Rate Limits and Pricing**: Backend calls can help manage and optimize API usage to stay within free or cheaper tiers. Frontend calls may exceed limits due to multiple users making requests simultaneously.
+*   **Server Costs**: Backend calls increase your server workload and may lead to higher hosting costs. However, these can be offset by better rate limit management and reduced API costs.
+*   **Security**: Backend calls offer better security, reducing the risk of costly data breaches.”
